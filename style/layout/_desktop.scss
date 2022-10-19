@@ -1,0 +1,70 @@
+.box {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    .moon {
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 75px;
+            line-height: 1.3;
+            text-align: center;
+            font-size: 6rem;
+        }
+        a {
+            font-size: 1.5rem;
+            margin-left: 140px;
+        }
+    }
+}
+
+.menu {
+    nav {
+        li {
+            a:hover {
+                border-bottom: 8px solid $accent-color;
+            }
+        }
+    }
+}
+
+.arrow {
+    position: relative;
+    top: 2px;
+    width: 20px;
+    height: 12px;
+}
+
+.bottom {
+    display: flex;
+    min-height: 100vh;
+    padding: 140px;
+
+    .bottom-left {
+        max-width: 500px;
+        .space-ventures {
+            bottom: 0;
+        }
+    }
+    
+    .bottom-right {
+        max-width: 500px;
+        margin-left: 30px;
+        .dave {
+            display: block;
+            height: 150px;
+            width: 100px;
+        }
+        .hidden-for-mobile {
+            display: block;
+            font-size: 2rem;
+            line-height: 1.3;
+            max-width: 350px;
+            font-style: italic;
+            background: #e810e884;
+            background: linear-gradient(to bottom right, #e810e850 0%, #FFFFFF84 50%, #E810E850 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
